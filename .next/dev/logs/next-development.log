@@ -1,0 +1,7 @@
+[00:00:02.095] Server  LOG     ✓ Ready in 1900ms
+[00:00:07.865] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.588] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.725] Browser WARN    Image with src "/_next/static/media/header-bg-color.0bc38b50.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:32.035] Server  LOG     ✓ Compiled in 73ms
+[00:00:44.957] Server  LOG     ✓ Compiled in 69ms
