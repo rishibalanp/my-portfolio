@@ -2,7 +2,7 @@
 
 # Node / build
 /node_modules
-/.next
+/.next/
 /out
 /dist
 /tmp
@@ -22,8 +22,8 @@ pnpm-debug.log*
 # Cache
 /.cache
 /.parcel-cache
-/.next/cache
 /.turbo
+node_modules/.cache
 
 # Env files (local secrets)
 .env
