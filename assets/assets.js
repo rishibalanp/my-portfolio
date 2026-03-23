@@ -1,4 +1,3 @@
-import user_image from './user-image.png';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -15,7 +14,6 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -37,11 +35,14 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import rishi_profile from './rishi_profile.jpeg';
 import rishi_img from './rishi_img.jpg';
+import rishi_name_white from './rishi_name_white.png';
+import rishi_name_dark from './rishi_name_dark.png';
 
 export const assets = {
     rishi_profile,
     rishi_img,
-    user_image,
+    rishi_name_white,
+    rishi_name_dark,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -58,7 +59,6 @@ export const assets = {
     logo_dark,
     mail_icon,
     mail_icon_dark,
-    profile_img,
     download_icon,
     hand_icon,
     header_bg_color,
@@ -82,34 +82,72 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'E-commerce',
+        description: 'Website Design',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: '',
+        description: 'soon..',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: '',
+        description: 'soon..',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: '',
+        description: 'soon..',
         bgImage: '/work-4.png',
     },
 ]
 
-export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
 
+export const experienceData = [
+  {
+    icon: assets.web_icon,
+    title: "HTC Global Services – Automobile E-commerce",
+    description:
+      "Built Angular 19 + Spartacus storefront with reusable components and 90+ performance score.",
+    link: ""
+  },
+  {
+    icon: assets.web_icon,
+    title: "HTC Global Services – Redshift Interface",
+    description:
+      "Developed Angular app with AWS Lambda, WebSockets, NgRx for real-time data workflows.",
+    link: ""
+  },
+  {
+    icon: assets.mobile_icon,
+    title: "Cestro Technologies – WOW Webinar",
+    description:
+      "Created Ionic Angular app with Node.js backend for real-time webinar platform.",
+    link: ""
+  },
+  {
+    icon: assets.web_icon,
+    title: "Cestro Technologies – LMS (ACAD)",
+    description:
+      "Built full-stack LMS using Angular, Node.js, SQL with scalable API integration.",
+    link: ""
+  },
+  {
+    icon: assets.web_icon,
+    title: "Cestro Technologies – BDI E-commerce",
+    description:
+      "Developed Spartacus storefront with Angular, NgRx, improving performance and UX.",
+    link: ""
+  },
+  {
+    icon: assets.web_icon,
+    title: "Personal Project – E-commerce",
+    description:
+      "Full-stack app with Angular, Node.js, MongoDB including auth and cart system.",
+    link: ""
+  }
+];
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JS, Anguar, Spartacus, React & Next Js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.E in Computer Science' },
