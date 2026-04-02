@@ -26,7 +26,7 @@ const Header = ({ isDarkMode }) => {
                 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>A Frontend Web Developer</motion.h1>
 
             <motion.p className='max-w-2xl mx-auto font-Ovo' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.7 }}>
-                Angular Frontend Developer | SAP Spartacus | React & Next.js | 5 Years Experience
+                Angular Frontend Developer | SAP Spartacus | React & Next.js | Java | 5 Years Experience
             </motion.p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <motion.a

@@ -119,20 +119,20 @@ export const experienceData = [
       "Developed Angular app with AWS Lambda, WebSockets, NgRx for real-time data workflows.",
     link: ""
   },
-  {
-    icon: assets.mobile_icon,
-    title: "Cestro Technologies – WOW Webinar",
-    description:
-      "Created Ionic Angular app with Node.js backend for real-time webinar platform.",
-    link: ""
-  },
-  {
-    icon: assets.web_icon,
-    title: "Cestro Technologies – LMS (ACAD)",
-    description:
-      "Built full-stack LMS using Angular, Node.js, SQL with scalable API integration.",
-    link: ""
-  },
+  // {
+  //   icon: assets.mobile_icon,
+  //   title: "Cestro Technologies – WOW Webinar",
+  //   description:
+  //     "Created Ionic Angular app with Node.js backend for real-time webinar platform.",
+  //   link: ""
+  // },
+  // {
+  //   icon: assets.web_icon,
+  //   title: "Cestro Technologies – LMS (ACAD)",
+  //   description:
+  //     "Built full-stack LMS using Angular, Node.js, SQL with scalable API integration.",
+  //   link: ""
+  // },
   {
     icon: assets.web_icon,
     title: "Cestro Technologies – BDI E-commerce",
