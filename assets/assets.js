@@ -109,7 +109,7 @@ export const experienceData = [
     icon: assets.web_icon,
     title: "HTC Global Services – Automobile E-commerce",
     description:
-      "Built Angular 19 + Spartacus storefront with reusable components and 90+ performance score.",
+      "Built Angular 21 Spartacus 221121.9 storefront with reusable components and 90+ performance score.",
     link: ""
   },
   {
